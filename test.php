@@ -147,3 +147,5 @@ $h = $un->getHistory();
 var_dump($h[$t-1]);
 print_r($un->getLastOutputSequence());
 file_put_contents('a.csv', implode(PHP_EOL, $h));
+
+echo '------------------------------'.PHP_EOL;
